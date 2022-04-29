@@ -1,0 +1,137 @@
+/* HEADER */
+
+.header-style{
+    position: relative;
+    background: rgb(1, 127, 255);
+    z-index: 999;
+}
+
+.form-search{
+    flex: 1 1 0%;
+    padding: 0 20px;
+}
+
+.form-search .search-content{
+    width: 700px;
+    display: flex;
+    position: relative;
+    box-shadow: rgb(98 98 98 / 50%) 0px 1px 2px 0px;
+}
+
+.search-content .search-input{
+    border: 0px;
+    padding: 0px 12px;
+    font-size: 13px;
+    border-radius: 2px 0px 0px 2px;
+    flex: 1 1 0%;
+    outline: none;
+}
+
+.search-content .search-btn{
+    cursor: pointer;
+    border: 0px;
+    width: 120px;
+    background: rgb(13, 92, 182);
+    height: 40px;
+    border-radius: 0px 2px 2px 0px;
+    color: white;
+    font-size: 13px;
+    font-weight: 500;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-content .search-btn .search-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0px 8px 0px 0px;
+}
+
+.user-shortcut{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.user-shortcut .account-container{
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: relative;
+    width: 170px;
+}
+
+.account-container a{
+    color: rgb(255, 255, 255);
+}
+
+.account-container .profile-icon{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 2px;
+}
+
+.account-container .account-block{
+    margin-right: 27px;
+    padding: 6px 0;
+    text-align: left;
+}
+
+.account-block .login-text{
+    font-weight: 700;
+}
+
+.user-shortcut .cart-container{
+    position: relative;
+    display: flex;
+}
+
+.cart-container .cart-wrapper{
+    cursor: pointer;
+    margin: 0px 0px 0px 16px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: relative;
+    align-items: flex-end;
+}
+
+.cart-wrapper .cart-icon-wrapper{
+    position: relative;
+    margin-right: 8px;
+    display: flex;
+}
+
+.cart-icon-wrapper .cart-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.cart-icon-wrapper .cart-quantity{
+    color: rgb(36, 36, 36);
+    background: rgb(253, 216, 53);
+    height: 20px;
+    left: 20px;
+    top: -2px;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    position: absolute;
+    padding: 0px 7px;
+}
+
+.cart-wrapper .cart-text{
+    margin-bottom: 5px;
+}
+
+.cart-container a{
+    text-decoration: none;
+}
